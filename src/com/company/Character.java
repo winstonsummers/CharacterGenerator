@@ -34,7 +34,7 @@ abstract public class Character {
     void getStats() {
         System.out.println("Name "+this.name+"\nStrength " + this.strength + "\nDexterity " + this.dexterity + "\nConstitution " + this.constitution + "\nIntelligence " + this.intelligence + "\nWisdom " + this.wisdom + "\nCharisma " + this.charisma);
         drinkOfChoice();
-        System.out.println("Abilities");
+        System.out.print("Abilities ");
         System.out.println(Arrays.toString(abilities));
         System.out.println("\n");
     }

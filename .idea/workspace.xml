@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a00cffc4-ca43-4772-b72a-080f426595e5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CharacterCreator/com/company/Character.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CharacterCreator/com/company/Character.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CharacterCreator/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CharacterCreator/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CharacterCreator/com/company/Races/Dwarf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CharacterCreator/com/company/Races/Dwarf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CharacterCreator/com/company/Races/Elf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CharacterCreator/com/company/Races/Elf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Character.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/CharacterClasses/Cleric.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/CharacterClasses/Mage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Races/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Races/Dwarf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Races/Elf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Races/Elf.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+              <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,11 +26,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ElfMage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/CharacterClasses/ElfMage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Character.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Character.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+            <state relative-caret-position="527">
+              <caret line="48" column="22" lean-forward="true" selection-start-line="41" selection-start-column="6" selection-end-line="48" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,8 +59,8 @@
       <file leaf-file-name="Dwarf.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Races/Dwarf.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="135">
+              <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -98,6 +97,7 @@
         <option value="$PROJECT_DIR$/src/com/company/Races/Dwarf.java" />
         <option value="$PROJECT_DIR$/src/com/company/Character.java" />
         <option value="$PROJECT_DIR$/src/com/company/CharacterClasses/DwarfCleric.java" />
+        <option value="$PROJECT_DIR$/src/com/company/CharacterClasses/ElfMage.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
       </list>
     </option>
@@ -134,6 +134,13 @@
               <item name="CharacterCreator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CharacterCreator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CharacterCreator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="CharacterClasses" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CharacterCreator" type="b2602c69:ProjectViewProjectNode" />
@@ -349,15 +356,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Races/Dwarf.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="135">
+          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Character.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+        <state relative-caret-position="527">
+          <caret line="48" column="22" lean-forward="true" selection-start-line="41" selection-start-column="6" selection-end-line="48" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -371,10 +378,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/CharacterClasses/ElfMage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
