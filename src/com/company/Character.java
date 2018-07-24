@@ -5,6 +5,7 @@ import java.util.Random;
 abstract public class Character {
 
     private String name;
+    private Object charClass;
 
     protected int strength;
     protected int dexterity;
@@ -13,16 +14,20 @@ abstract public class Character {
     protected int wisdom;
     protected int charisma;
 
-    Random random = new Random();
+    private Random random = new Random();
+    private int threeDSix() {
+        return random.nextInt(6) + random.nextInt(6) + random.nextInt(6) +3;
+    }
 
-    protected Character(String name){
+    protected Character(String name, Object charClassToBe){
         this.name = name;
-        this.strength = random.nextInt(6) + random.nextInt(6) + random.nextInt(6) +3;
-        this.dexterity = random.nextInt(6) + random.nextInt(6) + random.nextInt(6) +3;
-        this.constitution = random.nextInt(6) + random.nextInt(6) + random.nextInt(6) +3;
-        this.intelligence = random.nextInt(6) + random.nextInt(6) + random.nextInt(6) +3;
-        this.wisdom = random.nextInt(6) + random.nextInt(6) + random.nextInt(6) +3;
-        this.charisma = random.nextInt(6) + random.nextInt(6) + random.nextInt(6) +3;
+        this.charClass = charClassToBe;
+        this.strength = threeDSix();
+        this.dexterity = threeDSix();
+        this.constitution = threeDSix();
+        this.intelligence = threeDSix();
+        this.wisdom = threeDSix();
+        this.charisma = threeDSix();
     }
 
     void getStats() {
