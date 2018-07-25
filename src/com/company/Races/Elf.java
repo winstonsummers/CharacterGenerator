@@ -12,7 +12,7 @@ public class Elf extends Character {
     }
 
     public void drinkOfChoice() {
-        System.out.println("Drink of Choice:");
+        System.out.print("Drink of Choice: ");
         System.out.println("Only the finest Elven wine");
     }
 

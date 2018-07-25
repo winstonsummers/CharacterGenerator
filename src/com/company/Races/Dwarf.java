@@ -12,7 +12,7 @@ public class Dwarf extends Character {
     }
 
     public void drinkOfChoice() {
-        System.out.println("Drink of Choice:");
+        System.out.print("Drink of Choice: ");
         System.out.println("Great big barrels of Rainbow Ripply");
     }
 

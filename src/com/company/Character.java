@@ -18,11 +18,21 @@ abstract public class Character {
 
     private Random random = new Random();
     private int threeDSix() {
-        return random.nextInt(6) + random.nextInt(6) + random.nextInt(6) +6;
+        int total = 0;
+        int numOfRolls = 0;
+        while (numOfRolls < 3){
+            int roll = random.nextInt(6) +1;
+            if (roll >= 2){
+                total = total+roll;
+                ++numOfRolls;
+            }
+        }
+
+        return total;
     }
 
     protected Character(String name){
-        this.name = name;;
+        this.name = name;
         this.strength = threeDSix();
         this.dexterity = threeDSix();
         this.constitution = threeDSix();

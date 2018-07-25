@@ -2,8 +2,6 @@ package com.company;
 
 import com.company.CharacterClasses.DwarfCleric;
 import com.company.CharacterClasses.ElfMage;
-import com.company.Races.Dwarf;
-import com.company.Races.Elf;
 public class Main {
 
     public static void main(String[] args) {
